@@ -1,0 +1,48 @@
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  background-color: #f4c430;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 2px 15px 0 #FCD440;
+          box-shadow: 0 2px 15px 0 #FCD440;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.right {
+  right: 0;
+  -webkit-transform: translate(150%, -50%);
+          transform: translate(150%, -50%);
+}
+
+.left {
+  left: 0;
+  -webkit-transform: translate(-150%, -50%);
+          transform: translate(-150%, -50%);
+}
+
+.carousel-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 0 84px;
+}
+
+@media screen and (max-width: 486px) {
+  .carousel-container {
+    padding: 0 5px;
+  }
+}
+/*# sourceMappingURL=CustomCarousel.styles.css.map */
